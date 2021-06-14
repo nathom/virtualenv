@@ -7,6 +7,7 @@ from .fish import FishActivator
 from .powershell import PowerShellActivator
 from .python import PythonActivator
 from .xonsh import XonshActivator
+from .nushell import NushellActivator
 
 __all__ = [
     "BashActivator",
@@ -16,4 +17,5 @@ __all__ = [
     "PythonActivator",
     "BatchActivator",
     "FishActivator",
+    "NushellActivator",
 ]
